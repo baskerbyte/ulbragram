@@ -57,7 +57,7 @@
     margin-top: 3rem;
 }
 
-#commentIcon {
+#comment img {
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -77,6 +77,7 @@
     border-radius: 50%;
     width: 55px;
     height: 55px;
+    padding-right: 3px;
 }
 
 #myProfile img {
@@ -89,10 +90,49 @@
     border-radius: 50%;
     width: 55px;
     height: 55px;
+    padding-right: 4px;
+    padding-top: 3px;
 }
 
 .profiles img {
     border-radius: 50%;
     width: 100%;
     height: 100%;
+}
+
+.mainProfile {
+    padding-top: 20px;
+    padding-left: 140px;
+}
+
+.profile img {
+    border: 2px solid #e1306c;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+    margin: 4px;
+}
+
+.profile button {
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.profile a {
+    text-decoration: none;
+}
+
+.navigationProfile {
+    border-top: 1px solid #ccc;
+}
+
+.navigationProfile div:hover {
+    border-top: 2px solid #252121;
+}
+
+.img-fluid {
+    width: 330px;
+    height: 330px;
 }
